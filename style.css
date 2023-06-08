@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #202020;
+    width: 100%;
+top: 0 !important;
+}
+.main{
+    width: 100%;
+min-height: 90vh;
+display: flex;  
+justify-content: center;
+align-items: center;
+}
+.text-container{
+  color: white;
+    width: 100%;
+    text-align: center;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.skiptranslate.goog-te-gadget{
+    visibility: hidden !important;
+}
+.skiptranslate iframe{
+    display: none !important;
+}
+#google_translate_element{
+    border-radius: 4px;
+    padding: 5px 0px;
+    background: rgba(255, 255, 255, 0.2);
+    height: 26px !important;
+    width: fit-content !important;
+  display: inline-block !important;
+  min-height: 0px !important;
+  min-width: 0px !important;
+
+}
+.skiptranslate.goog-te-gadget .goog-te-combo{
+-webkit-appearance: none !important;
+-moz-appearance: none !important;
+outline: none !important;
+border:none !important;
+background: none !important;
+width: 140px !important;
+padding: 0px 10px;
+height: fit-content !important;
+border: none !important;
+color: white !important;
+visibility: visible !important;
+margin: 0px !important; 
+font-family: 'Poppins', sans-serif !important;
+font-size: 17px !important;
+}
+.skiptranslate.goog-te-gadget .goog-te-combo option{
+    background:#202020 !important;
+}
+.skiptranslate.goog-te-gadget{
+    font-size: 0px !important;
+}
+.skiptranslate.goog-te-gadget span{
+display: none !important;
+}
